@@ -20,6 +20,9 @@
     --color-box-footer: #FAFAFC;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -40,8 +43,12 @@ body{
     justify-content: center;  
 }
 
-body,input,button,textarea{
+body,
+input,
+button,
+textarea{
     font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
 }
 
 .container{
